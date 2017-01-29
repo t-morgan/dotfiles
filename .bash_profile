@@ -46,9 +46,3 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
-
-# Set CLICOLOR if you want Ansi Colors in iTerm2 
-export CLICOLOR=1
-
-# Set colors to match iTerm2 Terminal Colors
-export TERM=xterm-256color
